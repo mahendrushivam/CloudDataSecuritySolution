@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#eef5f5"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginLeft="65dp"
+        android:background="@drawable/addcloudbtnback">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:id="@+id/childicon"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/zipfileicon"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="18dp"
+            android:background="#eef5f5"
+            android:layout_marginLeft="10dp"
+            android:text="Type"
+            android:id="@+id/compressiontype"
+            android:paddingTop="3dp"
+            />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+           android:layout_marginTop="3dp"
+            android:src="@drawable/arrowwhite"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

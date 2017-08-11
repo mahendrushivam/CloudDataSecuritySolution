@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:icon="@drawable/remove"
+    android:id="@+id/deletegesture"
+    android:title="Delete Gesture"
+    app:showAsAction="always"
+    ></item>
+
+    <item
+        android:icon="@drawable/saveicon"
+        android:id="@+id/savegesture"
+        android:title="Save Gesture"
+        app:showAsAction="always"
+        ></item>
+</menu>

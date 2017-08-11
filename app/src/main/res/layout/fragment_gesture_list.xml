@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shivam.datcompressorfinal.GestureListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <ListView
+       android:layout_width="match_parent"
+       android:layout_height="460dp"
+       android:layout_weight="0.8"
+       android:id="@+id/gesturelist"
+       android:background="#99cccc"
+       android:layout_gravity="center"
+       ></ListView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add gesture"
+        android:id="@+id/addgesture"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test gesture"
+        android:id="@+id/testgesture"/>
+
+</LinearLayout>

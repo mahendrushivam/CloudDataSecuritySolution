@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/gesture"
+            android:icon="@drawable/gestureicon"
+            android:title="Gesture Mode" />
+        <item
+            android:id="@+id/filescanner"
+            android:icon="@drawable/scannericon"
+            android:title="File Scanner" />
+        <item
+            android:id="@+id/datacompressor"
+            android:icon="@drawable/zipfile"
+            android:title="Data Compressor" />
+    </group>
+    <item android:title="Cloud Storage">
+        <menu>
+            <item
+                android:id="@+id/cloudacc"
+                android:icon="@drawable/cloudstorageicon"
+                android:title="Storage Accounts " />
+            <item
+                android:id="@+id/datatransfer"
+                android:icon="@drawable/transfericon"
+                android:title="Transfer/Sync Cloud" />
+
+
+
+        </menu>
+    </item>
+    <item android:title="Settings">
+        <menu>
+
+            <item
+                android:id="@+id/customization"
+                android:icon="@drawable/customicon"
+                android:title="Customization" />
+            <item
+                android:id="@+id/compressorsettings"
+                android:icon="@drawable/settingsicon"
+                android:title="Compressor Settings" />
+
+
+        </menu>
+    </item>
+
+</menu>

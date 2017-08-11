@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.shivam.datcompressorfinal.SaveFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.gesture.GestureOverlayView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/savegesture"
+        android:gestureStrokeType="multiple"
+        android:fadeEnabled="false"
+        android:fadeOffset="1000000"
+        >
+    </android.gesture.GestureOverlayView>
+
+</FrameLayout>

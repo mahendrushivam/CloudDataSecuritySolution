@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivam.datcompressorfinal.MainLayoutFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/memorylayout"
+        android:background="@drawable/roundlayout"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Title"
+            android:id="@+id/memorytitle"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:textColor="#dce5ec"
+            android:textSize="24dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edittextlayout"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <me.itangqi.waveloadingview.WaveLoadingView
+                android:id="@+id/waveLoadingView"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="5dp"
+
+                app:wlv_borderColor="#697189"
+                app:wlv_borderWidth="3dp"
+
+                app:wlv_progressValue="40"
+                app:wlv_shapeType="circle"
+                app:wlv_round_rectangle="true"
+                app:wlv_triangle_direction="north"
+                app:wlv_titleCenterStrokeColor="@android:color/holo_blue_dark"
+                app:wlv_titleCenterStrokeWidth="3dp"
+                app:wlv_titleCenterColor="@android:color/white"
+                app:wlv_titleCenterSize="20sp"
+                app:wlv_waveAmplitude="120"
+                app:wlv_waveColor="#697189"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#697187"
+                    android:clickable="false"
+                    android:contextClickable="false"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:layout_width="160dp"
+
+                    android:layout_height="35dp"
+                    android:paddingLeft="5dp"
+                    android:textSize="16dp"
+                    android:text="Used:: "
+                    android:id="@+id/usedspace"/>
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#ffffff"
+                    android:clickable="false"
+                    android:contextClickable="false"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:layout_width="160dp"
+
+                    android:layout_height="35dp"
+                    android:paddingLeft="5dp"
+                    android:textSize="16dp"
+                    android:text="Left:: "
+                    android:id="@+id/leftspace"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/cloudlisticon"
+            android:layout_marginTop="8dp"
+            android:id="@+id/latestupdates"></ListView>
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/favorites"
+                android:background="@drawable/cloudlisticon">
+
+            </GridView>
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

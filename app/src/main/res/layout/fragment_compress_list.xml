@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.shivam.datcompressorfinal.CompressListFragment">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#d4d0ac"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="#d6cbb1"
+android:textColor="#f4f1ed"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="90dp"
+        android:text="No of files"
+        android:textSize="22dp"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="#bab6ab"
+        android:paddingLeft="5dp"
+        android:id="@+id/nooffiles"
+        android:text=" 0"
+        android:textSize="22dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#f0f4f4">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:textSize="22dp"
+        android:paddingLeft="120dp"
+        android:background="#93bbec"
+        android:textColor="#f5f5d0"
+        android:text="Total Size :: "
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:id="@+id/totsize"
+            android:background="#ebedef"
+            android:paddingLeft="5dp"
+            android:text=" 0 KB"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Add Files"
+        android:textAllCaps="false"
+        android:paddingLeft="80dp"
+        android:paddingRight="100dp"
+        android:drawableRight="@drawable/addicon"
+        android:textColor="#eef5f5"
+        android:id="@+id/addfiles"
+        android:background="@drawable/buttonlayout"
+        android:textSize="24dp"
+       />
+
+
+<ExpandableListView
+    android:layout_width="match_parent"
+    android:background="#485151"
+    android:id="@+id/expandlist"
+    android:layout_height="330dp">
+
+
+</ExpandableListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:paddingTop="10dp"
+        android:background="#9fa0a1"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:id="@+id/startbtn"
+            android:layout_marginLeft="38dp"
+            android:drawableLeft="@drawable/start"
+            android:textColor="#54608f"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/textviewbackground"
+            android:text="Start"
+
+            android:textSize="20dp"
+            android:textAllCaps="false"/>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:id="@+id/cancelbtn"
+            android:layout_marginLeft="15dp"
+            android:text="Cancel"
+            android:textColor="#54608f"
+            android:drawableLeft="@drawable/cancelicon"
+            android:background="@drawable/textviewbackground"
+            android:textSize="20dp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/buttonlayout"
+        android:drawableLeft="@drawable/settings"
+        android:id="@+id/settingsbtn"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:textAllCaps="false"
+        android:text="Settings"
+        android:textColor="#f4ecec"
+        android:textSize="22dp"
+        android:layout_height="50dp" />
+</LinearLayout>

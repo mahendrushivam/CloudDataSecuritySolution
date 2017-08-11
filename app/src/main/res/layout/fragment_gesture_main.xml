@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivam.datcompressorfinal.GestureMainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Draw A Gesture"
+        android:fontFamily="sans-serif"
+        android:paddingTop="10dp"
+        android:paddingLeft="22dp"
+        android:textSize="24dp"
+        android:background="#d5e6e6"/>
+    <android.gesture.GestureOverlayView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gestures"
+
+        android:fadeOffset="1000"
+        android:fadeEnabled="true"
+        android:gestureStrokeType="multiple"
+        android:background="#686969"
+        ></android.gesture.GestureOverlayView>
+</LinearLayout>

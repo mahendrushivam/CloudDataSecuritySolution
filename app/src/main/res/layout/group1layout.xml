@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eef5f5"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginLeft="65dp"
+        android:background="@drawable/addcloudbtnback">
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:id="@+id/checkbox"
+            android:focusable="false"
+            android:layout_marginTop="5dp"
+            android:focusableInTouchMode="false"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="18dp"
+            android:background="#eef5f5"
+            android:layout_marginLeft="10dp"
+            android:text="Memory Type"
+            android:id="@+id/memorytext"
+            android:paddingTop="7dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
